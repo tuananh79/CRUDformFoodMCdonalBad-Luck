@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin : 0;
+}
+
+.btn-dl {
+    margin-top: 20px;
+
+    .list {
+
+        padding      : 0px 10px 11px 10px;
+        background   : #f4f4f6;
+        color        : black;
+        margin       : 9px 3px 0 3px;
+        border-radius: 10%;
+        position     : relative;
+
+        .title {
+            color   : black;
+            position: absolute;
+            right   : 14px;
+            top     : 5px;
+            width   : 26px;
+
+
+        }
+
+        .pluss {
+            cursor  : pointer;
+            width   : 100px;
+            position: absolute;
+            right   : 92px;
+            top     : 0px;
+
+
+
+
+
+            input {
+                width : 20px;
+                border: none;
+
+
+            }
+
+        }
+
+
+
+
+        button {
+
+            right: 20px;
+            top  : 5px;
+        }
+
+        .gia {
+
+
+            font-weight: roboto 500;
+            position   : absolute;
+            right      : 60px;
+            top        : 0px;
+
+
+        }
+
+        .mon {
+
+            background-size: cover;
+        }
+    }
+
+    button {
+        border          : 1px solid black;
+        border-radius   : 25%;
+        cursor          : pointer;
+        padding         : 3px 8px 3px 10px;
+        color           : #FFAE69;
+        background-color: #E81F12;
+        font-weight     : bold;
+    }
+
+
+    .line1 {
+        width        : 300px;
+        border-bottom: 1px dashed black;
+        margin-left  : 48px;
+        margin-top   : 10px;
+
+    }
+}
